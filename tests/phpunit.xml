@@ -12,4 +12,7 @@
         </whitelist>
     </filter>
 
+	<logging>
+		<log type="testdox-html" target="/Users/dragonbe/Desktop/testdox.html" />
+	</logging>
 </phpunit>
