@@ -1,7 +1,8 @@
 <?php
-class Application_Model_CommentTest extends PHPUnit_Framework_TestCase
+class Application_Model_CommentTest extends Zend_Test_PHPUnit_DatabaseTestCase
 {
     protected $_comment;
+    protected $_dbMock;
     
     protected function setUp()
     {
@@ -13,6 +14,7 @@ class Application_Model_CommentTest extends PHPUnit_Framework_TestCase
         parent::tearDown();
         $this->_comment = null;
     }
+    
     public function testModelIsEmptyAtConstruct()
     {
         $this->assertSame(0, $this->_comment->getId());
@@ -74,5 +76,88 @@ class Application_Model_CommentTest extends PHPUnit_Framework_TestCase
         }
         $this->fail('Expected exception should be triggered');
         
+    }
+    
+    /*** DATABASE TESTING ***/
+    
+    public function getConnection()
+    {
+        if (null === $this->_dbMock) {
+            $this->bootstrap = new Zend_Application(
+                APPLICATION_ENV, APPLICATION_PATH . '/configs/application.ini');
+            $this->bootstrap->bootstrap('db');
+            $db = $this->bootstrap->getBootstrap()->getResource('db');
+            $this->_connectionMock = $this->createZendDbConnection(
+                $db, 'zftest'
+            );
+            return $this->_connectionMock;
+        }
+    }
+    
+    public function getDataSet()
+    {
+        return $this->createFlatXmlDataSet(
+            realpath(APPLICATION_PATH . '/../tests/_files/initialDataSet.xml'));
+    }
+    
+    public function testDatabaseCanBeRead()
+    {
+        $ds = new Zend_Test_PHPUnit_Db_DataSet_QueryDataSet(
+            $this->getConnection());
+        $ds->addTable('comment', 'SELECT * FROM `comment`');
+        
+        $expected = $this->createFlatXMLDataSet(
+            APPLICATION_PATH . '/../tests/_files/selectDataSet.xml');
+        $this->assertDataSetsEqual($expected, $ds);
+    }
+    public function testDatabaseCanBeUpdated()
+    {
+        $comment = new Application_Model_Comment();
+        $mapper = new Application_Model_CommentMapper();
+        $mapper->find(1, $comment);
+        $comment->setComment('I like you picking up the challenge!');
+        $mapper->save($comment);
+        
+        $ds = new Zend_Test_PHPUnit_Db_DataSet_QueryDataSet(
+            $this->getConnection());
+        $ds->addTable('comment', 'SELECT * FROM `comment`');
+        
+        $expected = $this->createFlatXMLDataSet(
+            APPLICATION_PATH . '/../tests/_files/updateDataSet.xml');
+        $this->assertDataSetsEqual($expected, $ds);
+    }
+    public function testDatabaseCanAddAComment()
+    {
+        $comment = new Application_Model_Comment();
+        $comment->setFullName('Michelangelo van Dam')
+                ->setEmailAddress('dragonbe@gmail.com')
+                ->setWebsite('http://www.dragonbe.com')
+                ->setComment('Unit Testing, It is so addictive!!!');
+        $mapper = new Application_Model_CommentMapper();
+        $mapper->save($comment);
+        
+        $ds = new Zend_Test_PHPUnit_Db_DataSet_QueryDataSet(
+            $this->getConnection());
+        $ds->addTable('comment', 'SELECT * FROM `comment`');
+        $filteredDs = new PHPUnit_Extensions_Database_DataSet_DataSetFilter(
+            $ds, array ('comment' => array ('id')));
+        
+        $expected = $this->createFlatXMLDataSet(
+            APPLICATION_PATH . '/../tests/_files/addDataSet.xml');
+        $this->assertDataSetsEqual($expected, $filteredDs);
+    }
+    public function testDatabaseCanDeleteAComment()
+    {
+        $comment = new Application_Model_Comment();
+        $mapper = new Application_Model_CommentMapper();
+        $mapper->find(1, $comment)
+               ->delete($comment);
+        $ds = new Zend_Test_PHPUnit_Db_DataSet_QueryDataSet(
+            $this->getConnection());
+        $ds->addTable('comment', 'SELECT * FROM `comment`');
+        
+        $expected = $this->createFlatXMLDataSet(
+            APPLICATION_PATH . '/../tests/_files/deleteDataSet.xml');
+        $this->assertDataSetsEqual($expected, $ds);
     }
 }

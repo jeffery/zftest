@@ -19,6 +19,10 @@
       <layoutsDirectory enabled="false"/>
       <modelsDirectory>
         <modelFile modelName="Comment"/>
+        <dbTableDirectory>
+          <dbTableFile dbTableName="Comment"/>
+        </dbTableDirectory>
+        <modelFile modelName="CommentMapper"/>
       </modelsDirectory>
       <modulesDirectory enabled="false"/>
       <viewsDirectory>

@@ -7,7 +7,7 @@ class Zftest_Validate_TextBox extends Zend_Validate_Abstract
     public $max;
     
     protected $_messageVariables = array (
-        'max' => 'maximum',
+        self::MSG_INVALID_SIZE => 'max',
     );
     
     protected $_messageTemplates = array (
@@ -29,7 +29,7 @@ class Zftest_Validate_TextBox extends Zend_Validate_Abstract
             return false;
         }
         
-        $regex = '/([a-zA-Z0-9\s\-\_\'\"\.\[\]\{\}\#\!\?\:\;\*\/\n<?\/b|i>]+)/';
+        $regex = '/([a-zA-Z0-9\s\-\_\'\"\.\[\]\{\}\#\!\?\:\;\,\*\/\n<?\/b|i>]+)/';
         $test = preg_match($regex, $value, $match);
         if (isset ($match[1]) && 0 === strcmp($value, $match[1])) {
             return true;
