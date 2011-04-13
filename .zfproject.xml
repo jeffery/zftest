@@ -23,6 +23,7 @@
           <dbTableFile dbTableName="Comment"/>
         </dbTableDirectory>
         <modelFile modelName="CommentMapper"/>
+        <modelFile modelName="CommentDup"/>
       </modelsDirectory>
       <modulesDirectory enabled="false"/>
       <viewsDirectory>

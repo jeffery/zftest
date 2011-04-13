@@ -1,0 +1,82 @@
+FILE: /Users/dragonbe/workspace/zftest/application/forms/CommentForm.php
+--------------------------------------------------------------------------------
+FOUND 15 ERROR(S) AFFECTING 15 LINE(S)
+--------------------------------------------------------------------------------
+ 34 | ERROR | Opening parenthesis of a multi-line function call must be the
+    |       | last content on the line
+ 35 | ERROR | Spaces must be used to indent lines; tabs are not allowed
+ 42 | ERROR | Closing parenthesis of a multi-line function call must be on a
+    |       | line by itself
+ 43 | ERROR | Opening parenthesis of a multi-line function call must be the
+    |       | last content on the line
+ 44 | ERROR | Spaces must be used to indent lines; tabs are not allowed
+ 51 | ERROR | Closing parenthesis of a multi-line function call must be on a
+    |       | line by itself
+ 52 | ERROR | Opening parenthesis of a multi-line function call must be the
+    |       | last content on the line
+ 53 | ERROR | Spaces must be used to indent lines; tabs are not allowed
+ 60 | ERROR | Closing parenthesis of a multi-line function call must be on a
+    |       | line by itself
+ 61 | ERROR | Opening parenthesis of a multi-line function call must be the
+    |       | last content on the line
+ 62 | ERROR | Spaces must be used to indent lines; tabs are not allowed
+ 69 | ERROR | Closing parenthesis of a multi-line function call must be on a
+    |       | line by itself
+ 70 | ERROR | Opening parenthesis of a multi-line function call must be the
+    |       | last content on the line
+ 71 | ERROR | Spaces must be used to indent lines; tabs are not allowed
+ 73 | ERROR | Closing parenthesis of a multi-line function call must be on a
+    |       | line by itself
+--------------------------------------------------------------------------------
+
+
+FILE: /Users/dragonbe/workspace/zftest/application/models/Comment.php
+--------------------------------------------------------------------------------
+FOUND 2 ERROR(S) AND 2 WARNING(S) AFFECTING 4 LINE(S)
+--------------------------------------------------------------------------------
+  68 | WARNING | Line exceeds 80 characters; contains 81 characters
+  70 | ERROR   | Spaces must be used to indent lines; tabs are not allowed
+  86 | ERROR   | Spaces must be used to indent lines; tabs are not allowed
+ 237 | WARNING | Line exceeds 80 characters; contains 83 characters
+--------------------------------------------------------------------------------
+
+
+FILE: /Users/dragonbe/workspace/zftest/application/models/CommentDup.php
+--------------------------------------------------------------------------------
+FOUND 2 ERROR(S) AND 2 WARNING(S) AFFECTING 4 LINE(S)
+--------------------------------------------------------------------------------
+  68 | WARNING | Line exceeds 80 characters; contains 81 characters
+  70 | ERROR   | Spaces must be used to indent lines; tabs are not allowed
+  86 | ERROR   | Spaces must be used to indent lines; tabs are not allowed
+ 237 | WARNING | Line exceeds 80 characters; contains 83 characters
+--------------------------------------------------------------------------------
+
+
+FILE: /Users/dragonbe/workspace/zftest/application/models/CommentMapper.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 4 WARNING(S) AFFECTING 4 LINE(S)
+--------------------------------------------------------------------------------
+  86 | WARNING | Line exceeds 80 characters; contains 94 characters
+ 105 | WARNING | Line exceeds 80 characters; contains 89 characters
+ 108 | WARNING | Line exceeds 80 characters; contains 84 characters
+ 124 | WARNING | Line exceeds 80 characters; contains 86 characters
+--------------------------------------------------------------------------------
+
+
+FILE: /Users/dragonbe/workspace/zftest/library/Zftest/Validate/Mwop.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 32 | ERROR | Protected member variable "messageTemplates" must contain a
+    |       | leading underscore
+--------------------------------------------------------------------------------
+
+
+FILE: /Users/dragonbe/workspace/zftest/library/Zftest/Validate/TextBox.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 76 | WARNING | Line exceeds 80 characters; contains 82 characters
+--------------------------------------------------------------------------------
+
+Time: 1 second, Memory: 5.75Mb

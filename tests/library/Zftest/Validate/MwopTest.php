@@ -22,7 +22,7 @@ class Zftest_Validate_MwopTest extends PHPUnit_Framework_TestCase
      */
     public function testCorrectNamesPassMwopTest($fullname)
     {
-        $mwop = new Prozf_Validate_Mwop();
+        $mwop = new Zftest_Validate_Mwop();
         $this->assertTrue($mwop->isValid($fullname));
     }
     /**
@@ -30,7 +30,7 @@ class Zftest_Validate_MwopTest extends PHPUnit_Framework_TestCase
      */
     public function testBadNamesDoNotPassMwopTest($badname)
     {
-        $mwop = new Prozf_Validate_Mwop();
+        $mwop = new Zftest_Validate_Mwop();
         $this->assertFalse($mwop->isValid($badname));
     }
 }

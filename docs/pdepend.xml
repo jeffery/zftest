@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metrics generated="2011-04-13T16:01:39" pdepend="0.10.3" ahh="1" andc="0" calls="73" ccn="71" ccn2="72" cloc="456" clsa="0" clsc="7" eloc="434" fanout="22" leafs="4" lloc="215" loc="907" maxDIT="2" ncloc="451" noc="7" nof="0" noi="0" nom="37" nop="1" roots="3">
+  <files>
+    <file name="/Users/dragonbe/workspace/zftest/application/forms/CommentForm.php" cloc="28" eloc="47" lloc="6" loc="79" ncloc="51"/>
+    <file name="/Users/dragonbe/workspace/zftest/application/models/Comment.php" cloc="122" eloc="134" lloc="72" loc="258" ncloc="136"/>
+    <file name="/Users/dragonbe/workspace/zftest/application/models/CommentDup.php" cloc="122" eloc="134" lloc="72" loc="258" ncloc="136"/>
+    <file name="/Users/dragonbe/workspace/zftest/application/models/CommentMapper.php" cloc="77" eloc="63" lloc="37" loc="142" ncloc="65"/>
+    <file name="/Users/dragonbe/workspace/zftest/application/models/DbTable/Comment.php" cloc="24" eloc="5" lloc="1" loc="31" ncloc="7"/>
+    <file name="/Users/dragonbe/workspace/zftest/library/Zftest/Validate/Mwop.php" cloc="36" eloc="18" lloc="9" loc="55" ncloc="19"/>
+    <file name="/Users/dragonbe/workspace/zftest/library/Zftest/Validate/TextBox.php" cloc="47" eloc="33" lloc="18" loc="84" ncloc="37"/>
+  </files>
+  <package name="Zftest" cr="0.15" noc="7" nof="0" noi="0" nom="37" rcr="0.2775">
+    <class name="Application_Form_CommentForm" ca="0" cbo="5" ce="5" cis="1" cloc="5" cr="0.15" csz="1" dit="2" eloc="42" impl="0" lloc="5" loc="53" ncloc="48" noam="1" nocc="0" nom="1" noom="0" npm="1" rcr="0.2775" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <file name="/Users/dragonbe/workspace/zftest/application/forms/CommentForm.php"/>
+      <method name="init" ccn="1" ccn2="1" cloc="0" eloc="42" lloc="5" loc="43" ncloc="43" npath="1"/>
+    </class>
+    <class name="Application_Model_Comment" ca="1" cbo="7" ce="7" cis="13" cloc="97" cr="0.15" csz="20" dit="0" eloc="110" impl="0" lloc="52" loc="230" ncloc="133" noam="0" nocc="0" nom="13" noom="0" npm="13" rcr="0.15" vars="7" varsi="7" varsnp="0" wmc="25" wmci="25" wmcnp="25">
+      <file name="/Users/dragonbe/workspace/zftest/application/models/Comment.php"/>
+      <method name="__construct" ccn="2" ccn2="2" cloc="0" eloc="31" lloc="4" loc="32" ncloc="32" npath="2"/>
+      <method name="setId" ccn="2" ccn2="2" cloc="0" eloc="9" lloc="6" loc="10" ncloc="10" npath="2"/>
+      <method name="getId" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="setFullName" ccn="2" ccn2="2" cloc="0" eloc="9" lloc="6" loc="10" ncloc="10" npath="2"/>
+      <method name="getFullName" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="setEmailAddress" ccn="2" ccn2="2" cloc="0" eloc="9" lloc="6" loc="10" ncloc="10" npath="2"/>
+      <method name="getEmailAddress" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="setWebsite" ccn="2" ccn2="2" cloc="0" eloc="9" lloc="6" loc="10" ncloc="10" npath="2"/>
+      <method name="getWebsite" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="setComment" ccn="2" ccn2="2" cloc="0" eloc="9" lloc="6" loc="10" ncloc="10" npath="2"/>
+      <method name="getComment" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="populate" ccn="7" ccn2="7" cloc="0" eloc="10" lloc="12" loc="11" ncloc="11" npath="64"/>
+      <method name="toArray" ccn="1" ccn2="1" cloc="0" eloc="9" lloc="1" loc="10" ncloc="10" npath="1"/>
+    </class>
+    <class name="Application_Model_CommentDup" ca="0" cbo="7" ce="7" cis="13" cloc="97" cr="0.15" csz="20" dit="0" eloc="110" impl="0" lloc="52" loc="230" ncloc="133" noam="0" nocc="0" nom="13" noom="0" npm="13" rcr="0.15" vars="7" varsi="7" varsnp="0" wmc="25" wmci="25" wmcnp="25">
+      <file name="/Users/dragonbe/workspace/zftest/application/models/CommentDup.php"/>
+      <method name="__construct" ccn="2" ccn2="2" cloc="0" eloc="31" lloc="4" loc="32" ncloc="32" npath="2"/>
+      <method name="setId" ccn="2" ccn2="2" cloc="0" eloc="9" lloc="6" loc="10" ncloc="10" npath="2"/>
+      <method name="getId" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="setFullName" ccn="2" ccn2="2" cloc="0" eloc="9" lloc="6" loc="10" ncloc="10" npath="2"/>
+      <method name="getFullName" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="setEmailAddress" ccn="2" ccn2="2" cloc="0" eloc="9" lloc="6" loc="10" ncloc="10" npath="2"/>
+      <method name="getEmailAddress" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="setWebsite" ccn="2" ccn2="2" cloc="0" eloc="9" lloc="6" loc="10" ncloc="10" npath="2"/>
+      <method name="getWebsite" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="setComment" ccn="2" ccn2="2" cloc="0" eloc="9" lloc="6" loc="10" ncloc="10" npath="2"/>
+      <method name="getComment" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="populate" ccn="7" ccn2="7" cloc="0" eloc="10" lloc="12" loc="11" ncloc="11" npath="64"/>
+      <method name="toArray" ccn="1" ccn2="1" cloc="0" eloc="9" lloc="1" loc="10" ncloc="10" npath="1"/>
+    </class>
+    <class name="Application_Model_CommentMapper" ca="0" cbo="3" ce="3" cis="7" cloc="54" cr="0.15" csz="8" dit="0" eloc="51" impl="0" lloc="29" loc="116" ncloc="62" noam="0" nocc="0" nom="7" noom="0" npm="7" rcr="0.15" vars="1" varsi="1" varsnp="0" wmc="14" wmci="14" wmcnp="14">
+      <file name="/Users/dragonbe/workspace/zftest/application/models/CommentMapper.php"/>
+      <method name="setDbTable" ccn="3" ccn2="3" cloc="0" eloc="10" lloc="6" loc="11" ncloc="11" npath="4"/>
+      <method name="getDbTable" ccn="2" ccn2="2" cloc="0" eloc="6" lloc="3" loc="7" ncloc="7" npath="2"/>
+      <method name="find" ccn="2" ccn2="2" cloc="0" eloc="7" lloc="4" loc="8" ncloc="8" npath="2"/>
+      <method name="fetchRow" ccn="2" ccn2="2" cloc="0" eloc="7" lloc="4" loc="8" ncloc="8" npath="2"/>
+      <method name="fetchAll" ccn="2" ccn2="2" cloc="0" eloc="8" lloc="5" loc="9" ncloc="9" npath="2"/>
+      <method name="save" ccn="2" ccn2="2" cloc="0" eloc="9" lloc="5" loc="10" ncloc="10" npath="2"/>
+      <method name="delete" ccn="1" ccn2="1" cloc="0" eloc="4" lloc="2" loc="5" ncloc="5" npath="1"/>
+    </class>
+    <class name="Application_Model_DbTable_Comment" ca="0" cbo="0" ce="0" cis="0" cloc="0" cr="0.15" csz="1" dit="2" eloc="0" impl="0" lloc="0" loc="4" ncloc="4" noam="0" nocc="0" nom="0" noom="0" npm="0" rcr="0.2775" vars="1" varsi="1" varsnp="0" wmc="0" wmci="0" wmcnp="0">
+      <file name="/Users/dragonbe/workspace/zftest/application/models/DbTable/Comment.php"/>
+    </class>
+    <class name="Zftest_Validate_Mwop" ca="3" cbo="0" ce="0" cis="1" cloc="12" cr="0.15" csz="2" dit="2" eloc="9" impl="0" lloc="6" loc="30" ncloc="18" noam="1" nocc="0" nom="1" noom="0" npm="1" rcr="0.21375" vars="1" varsi="1" varsnp="0" wmc="2" wmci="2" wmcnp="2">
+      <file name="/Users/dragonbe/workspace/zftest/library/Zftest/Validate/Mwop.php"/>
+      <method name="isValid" ccn="2" ccn2="2" cloc="0" eloc="9" lloc="6" loc="11" ncloc="11" npath="2"/>
+    </class>
+    <class name="Zftest_Validate_TextBox" ca="3" cbo="0" ce="0" cis="3" cloc="23" cr="0.15" csz="5" dit="2" eloc="17" impl="0" lloc="11" loc="59" ncloc="36" noam="2" nocc="0" nom="2" noom="0" npm="2" rcr="0.21375" vars="3" varsi="3" varsnp="1" wmc="5" wmci="5" wmcnp="5">
+      <file name="/Users/dragonbe/workspace/zftest/library/Zftest/Validate/TextBox.php"/>
+      <method name="__construct" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="isValid" ccn="3" ccn2="4" cloc="0" eloc="14" lloc="10" loc="17" ncloc="17" npath="6"/>
+    </class>
+  </package>
+</metrics>

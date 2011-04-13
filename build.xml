@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Zftest" description="Zend Framework Unit Testing" default="build">
+
+    <property name="app-dir" value="."/>
+    
+    <target name="phplint">
+		<phplint tofile="${app-dir}/docs/syntax-errors.txt">
+			<fileset dir="${app-dir}">
+			  <include name="application/**/*.php"/>
+			  <include name="library/Zftest/**/*.php"/>
+			</fileset>
+		</phplint>
+    </target>
+    
+    <target name="phpdoc">
+        <phpdoc title="API Documentation"
+			destdir="${app-dir}/docs/api"
+			sourcecode="true"
+			output="HTML:frames:earthli">
+			<fileset dir="${app-dir}">
+			     <include name="application/models/**/*.php"/>
+			     <include name="application/forms/**/*.php"/>
+			     <include name="library/Zftest/**/*.php"/>
+			</fileset>
+			<projdocfileset dir="${app-dir}/docs">
+				<include name="README" />
+				<include name="INSTALL" />
+				<include name="CHANGELOG" />
+			</projdocfileset>
+		</phpdoc>
+    </target>
+    
+    <target name="phpcs">
+        <exec command="/usr/bin/phpcs --standard=Zend --extensions=php --report=full --report-file=docs/codesniffer.txt application/models application/forms/ library/Zftest" dir="${app-dir}"/>
+    </target>
+    
+    <target name="phpcpd">
+		<phpcpd>
+			<fileset dir="${app-dir}">
+				<include name="application/models/**/*.php"/>
+                <include name="application/forms/**/*.php"/>
+                <include name="library/Zftest/**/*.php"/>
+			</fileset>
+			<formatter type="pmd" outfile="docs/pmd-cpd.xml"/>
+		</phpcpd>
+    </target>
+    
+    <target name="phpmd">
+		<phpmd rulesets="codesize,unusedcode">
+			<fileset dir="${app-dir}">
+                <include name="application/models/**/*.php"/>
+                <include name="application/forms/**/*.php"/>
+                <include name="library/Zftest/**/*.php"/>
+            </fileset>
+			<formatter type="html" outfile="docs/phpmd.html"/>
+		</phpmd>
+    </target>
+    
+    <target name="phpdepend">
+		<phpdepend>
+			<fileset dir="${app-dir}">
+                <include name="application/models/**/*.php"/>
+                <include name="application/forms/**/*.php"/>
+                <include name="library/Zftest/**/*.php"/>
+            </fileset>
+			<logger type="jdepend-chart" outfile="docs/jdepend.svg"/>
+			<logger type="overview-pyramid" outfile="docs/pyramid.svg"/>
+			<logger type="summary-xml" outfile="docs/jdepend.xml"/>
+			<analyzer type="coderank-mode" value="method"/>
+		</phpdepend>
+    </target>
+    
+    <target name="phpunit">
+		<phpunit bootstrap="${app-dir}/tests/TestHelper.php">
+		    <formatter type="plain" usefile="false"/>
+		    <formatter type="plain" todir="${app-dir}/docs" outfile="phpunit.txt"/>
+		    <formatter type="clover" todir="${app-dir}/docs" outfile="clover.xml"/>
+		    <formatter type="xml" todir="${app-dir}/docs" outfile="phpunit.xml"/>
+			<batchtest>
+				<fileset dir="${app-dir}/tests">
+	                <include name="application/models/**/*.php"/>
+	                <include name="application/forms/**/*.php"/>
+	                <include name="library/Zftest/**/*.php"/>
+	            </fileset>
+			</batchtest>
+		</phpunit>
+    </target>
+    
+    <target name="build" depends="phplint,phpdoc,phpcs,phpcpd,phpmd,phpdepend,phpunit">
+    </target>
+
+</project>

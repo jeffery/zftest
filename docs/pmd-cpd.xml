@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd version="phpcpd 1.3.2">
+  <duplication lines="205" tokens="378">
+    <file path="/Users/dragonbe/workspace/zftest/./application/models/Comment.php" line="32"/>
+    <file path="/Users/dragonbe/workspace/zftest/./application/models/CommentDup.php" line="32"/>
+    <codefragment>    protected $_id = 0;
+    /**
+     * @var 	string The full name of the comment submitter
+     */
+    protected $_fullName;
+    /**
+     * @var 	string The email address of the comment submitter
+     */
+    protected $_emailAddress;
+    /**
+     * @var 	string The website of the comment submitter
+     */
+    protected $_website;
+    /**
+     * @var 	string The comment itself
+     */
+    protected $_comment;
+    /**
+     * @var 	array List of filters for filtering incoming data
+     */
+    protected $_filters;
+    /**
+     * @var 	array List of validators for validating incoming data
+     */
+    protected $_validators;
+    /**
+     * Constructor for this comment class. It instantiates filters and
+     * validators en populates this class with optionally provided data.
+     * 
+     * @param 	null|array|Zend_Db_Table_Row $params
+     */
+    public function __construct($params = null)
+    {
+        $this-&gt;_filters = array (
+            'id' =&gt; array ('Int'),
+            'fullName' =&gt; array ('StringTrim', 'StripTags'),
+            'emailAddress' =&gt; array ('StringTrim', 'StripTags', 'StringToLower'),
+            'website' =&gt; array ('StringTrim', 'StripTags', 'StringToLower'),
+        	'comment' =&gt; array ('StringTrim', 'StripTags'),
+        );
+        $this-&gt;_validators = array (
+            'id' =&gt; array ('Int'),
+            'fullName' =&gt; array (
+                new Zftest_Validate_Mwop(),
+                new Zend_Validate_StringLength(array ('min' =&gt; 4, 'max' =&gt; 50)),
+            ),
+            'emailAddress' =&gt; array (
+                'EmailAddress',
+                new Zend_Validate_StringLength(array ('min' =&gt; 4, 'max' =&gt; 50)),
+            ),
+            'website' =&gt; array (
+                new Zend_Validate_Callback(array('Zend_Uri', 'check')),
+                new Zend_Validate_StringLength(array ('min' =&gt; 4, 'max' =&gt; 50)),
+            ),
+        	'comment' =&gt; array (
+                new Zftest_Validate_TextBox(),
+                new Zend_Validate_StringLength(array ('max' =&gt; 5000)),
+            ),
+        );
+        if (null !== $params) {
+            $this-&gt;populate($params);
+        }
+    }
+    /**
+     * Sets the sequence ID for this comment
+     * 
+     * @param 	int $id
+     * @return	Application_Model_Comment
+     * @throws	Zend_Exception
+     */
+    public function setId($id)
+    {
+        $input = new Zend_Filter_Input($this-&gt;_filters, $this-&gt;_validators);
+        $input-&gt;setData(array ('id' =&gt; $id));
+        if (!$input-&gt;isValid('id')) {
+            throw new Zend_Exception('Invalid ID provided');
+        }
+        $this-&gt;_id = (int) $input-&gt;id;
+        return $this;
+    }
+    /**
+     * Retrieves the sequence ID from this comment
+     * 
+     * @return	int
+     */
+    public function getId()
+    {
+        return $this-&gt;_id;
+    }
+    /**
+     * Sets the full name of the submitter for this comment
+     * 
+     * @param 	string $fullName
+     * @return	Application_Model_Comment
+     * @throws	Zend_Exception
+     */
+    public function setFullName($fullName)
+    {
+        $input = new Zend_Filter_Input($this-&gt;_filters, $this-&gt;_validators);
+        $input-&gt;setData(array ('fullName' =&gt; $fullName));
+        if (!$input-&gt;isValid('fullName')) {
+            throw new Zend_Exception('Invalid fullName provided');
+        }
+        $this-&gt;_fullName = (string) $input-&gt;fullName;
+        return $this;
+    }
+    /**
+     * Retrieves the full name of the submitter from this comment
+     * 
+     * @return	string
+     */
+    public function getFullName()
+    {
+        return $this-&gt;_fullName;
+    }
+    /**
+     * Sets the email address of the submitter for this comment
+     * 
+     * @param 	string $emailAddress
+     * @return	Application_Model_Comment
+     * @throws	Zend_Exception
+     */
+    public function setEmailAddress($emailAddress)
+    {
+        $input = new Zend_Filter_Input($this-&gt;_filters, $this-&gt;_validators);
+        $input-&gt;setData(array ('emailAddress' =&gt; $emailAddress));
+        if (!$input-&gt;isValid('emailAddress')) {
+            throw new Zend_Exception('Invalid emailAddress provided');
+        }
+        $this-&gt;_emailAddress = (string) $input-&gt;emailAddress;
+        return $this;
+    }
+    /**
+     * Retrieves the email address of the submitter from this comment
+     * 
+     * @return	string
+     */
+    public function getEmailAddress()
+    {
+        return $this-&gt;_emailAddress;
+    }
+    /**
+     * Sets the website of the submitter for this comment
+     * 
+     * @param 	string $website
+     * @return	Application_Model_Comment
+     * @throws	Zend_Exception
+     */
+    public function setWebsite($website)
+    {
+        $input = new Zend_Filter_Input($this-&gt;_filters, $this-&gt;_validators);
+        $input-&gt;setData(array ('website' =&gt; $website));
+        if (!$input-&gt;isValid('website')) {
+            throw new Zend_Exception('Invalid website provided');
+        }
+        $this-&gt;_website = (string) $input-&gt;website;
+        return $this;
+    }
+    /**
+     * Retrieves the website of the submitter from this comment
+     * 
+     * @return	string
+     */
+    public function getWebsite()
+    {
+        return $this-&gt;_website;
+    }
+    /**
+     * Sets the comment for this comment
+     * 
+     * @param 	string $comment
+     * @return	Application_Model_Comment
+     * @throws	Zend_Exception
+     */
+    public function setComment($comment)
+    {
+        $input = new Zend_Filter_Input($this-&gt;_filters, $this-&gt;_validators);
+        $input-&gt;setData(array ('comment' =&gt; $comment));
+        if (!$input-&gt;isValid('comment')) {
+            throw new Zend_Exception('Invalid comment provided');
+        }
+        $this-&gt;_comment = (string) $input-&gt;comment;
+        return $this;
+    }
+    /**
+     * Retrieves the comment from this comment
+     * 
+     * @return	string
+     */
+    public function getComment()
+    {
+        return $this-&gt;_comment;
+    }
+    /**
+     * Populates this comment class with data
+     * 
+     * @param 	array|Zend_Db_Table_Row $row
+     */
+    public function populate($row)
+    {
+        if (is_array($row)) {
+            $row = new ArrayObject($row, ArrayObject::ARRAY_AS_PROPS);
+        }
+        if (isset ($row-&gt;id)) $this-&gt;setId($row-&gt;id);
+        if (isset ($row-&gt;fullName)) $this-&gt;setFullName($row-&gt;fullName);
+</codefragment>
+  </duplication>
+</pmd-cpd>
