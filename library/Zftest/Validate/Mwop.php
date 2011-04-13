@@ -20,6 +20,7 @@
  * Casey, Jr. won't have any problems providing comments on the website.
  * 
  * @author 		Michelangelo <dragonbe+github@gmail.com>
+ * @package		Zftest
  * @category	Zftest_Validate
  */
 class Zftest_Validate_Mwop extends Zend_Validate_Abstract

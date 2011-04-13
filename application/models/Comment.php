@@ -21,6 +21,7 @@
  * of external storage/provider.
  * 
  * @author 		Michelangelo <dragonbe+github@gmail.com>
+ * @package		Zftest
  * @category	Application_Model
  */
 class Application_Model_Comment

@@ -19,6 +19,7 @@
  * Provides a data gateway to the database table storing comment data
  * 
  * @author 		Michelangelo <dragonbe+github@gmail.com>
+ * @package		Zftest
  * @category	Application_Model
  * @see			Zend_Db_Table_Abstract
  */

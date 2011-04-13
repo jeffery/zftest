@@ -20,6 +20,7 @@
  * emphasized using bold <b> and italic <i> tags.
  * 
  * @author 		Michelangelo <dragonbe+github@gmail.com>
+ * @package		Zftest
  * @category	Zftest_Validate
  */
 class Zftest_Validate_TextBox extends Zend_Validate_Abstract

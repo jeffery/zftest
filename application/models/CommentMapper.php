@@ -19,6 +19,7 @@
  * Provides a mapping between the comment class and the data storage
  * 
  * @author 		Michelangelo <dragonbe+github@gmail.com>
+ * @package		Zftest
  * @category	Application_Model
  */
 class Application_Model_CommentMapper

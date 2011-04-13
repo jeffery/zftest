@@ -19,6 +19,7 @@
  * Provides a form object that allows users to pass comments from the website.
  * 
  * @author 		Michelangelo <dragonbe+github@gmail.com>
+ * @package		Zftest
  * @category	Application_Form
  */
 class Application_Form_CommentForm extends Zend_Form
