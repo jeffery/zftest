@@ -1,12 +1,12 @@
 Testsuite: Application_Form_CommentFormTest::testFormAcceptsValidData
-Tests run: 3, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.10147 s
+Tests run: 3, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.43331 s
 Testsuite: Application_Form_CommentFormTest::testFormRejectsBadData
-Tests run: 4, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.10097 s
+Tests run: 4, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.11518 s
 Testsuite: Application_Model_CommentTest::testModelAcceptsValidData
-Tests run: 3, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.22765 s
+Tests run: 3, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.56878 s
 Testsuite: Application_Model_CommentTest::testModelRejectsBadData
-Tests run: 4, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.16779 s
+Tests run: 4, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.14450 s
 Testsuite: Zftest_Validate_MwopTest::testCorrectNamesPassMwopTest
-Tests run: 4, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.01949 s
+Tests run: 4, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.01931 s
 Testsuite: Zftest_Validate_MwopTest::testBadNamesDoNotPassMwopTest
-Tests run: 2, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.01121 s
+Tests run: 2, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.00971 s

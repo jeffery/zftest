@@ -7,7 +7,7 @@
 		<phplint tofile="${app-dir}/docs/syntax-errors.txt">
 			<fileset dir="${app-dir}">
 			  <include name="application/**/*.php"/>
-			  <include name="library/Zftest/**/*.php"/>
+			  <include name="library/${phing.project.name}/**/*.php"/>
 			</fileset>
 		</phplint>
     </target>
@@ -20,7 +20,7 @@
 			<fileset dir="${app-dir}">
 			     <include name="application/models/**/*.php"/>
 			     <include name="application/forms/**/*.php"/>
-			     <include name="library/Zftest/**/*.php"/>
+			     <include name="library/${phing.project.name}/**/*.php"/>
 			</fileset>
 			<projdocfileset dir="${app-dir}/docs">
 				<include name="README" />
@@ -31,7 +31,7 @@
     </target>
     
     <target name="phpcs">
-        <exec command="/usr/bin/phpcs --standard=Zend --extensions=php --report=full --report-file=docs/codesniffer.txt application/models application/forms/ library/Zftest" dir="${app-dir}"/>
+        <exec command="/usr/bin/phpcs --standard=Zend --extensions=php --report=full --report-file=docs/codesniffer.txt application/models application/forms/ library/${phing.project.name}" dir="${app-dir}"/>
     </target>
     
     <target name="phpcpd">
@@ -39,7 +39,7 @@
 			<fileset dir="${app-dir}">
 				<include name="application/models/**/*.php"/>
                 <include name="application/forms/**/*.php"/>
-                <include name="library/Zftest/**/*.php"/>
+                <include name="library/${phing.project.name}/**/*.php"/>
 			</fileset>
 			<formatter type="pmd" outfile="docs/pmd-cpd.xml"/>
 		</phpcpd>
@@ -50,7 +50,7 @@
 			<fileset dir="${app-dir}">
                 <include name="application/models/**/*.php"/>
                 <include name="application/forms/**/*.php"/>
-                <include name="library/Zftest/**/*.php"/>
+                <include name="library/${phing.project.name}/**/*.php"/>
             </fileset>
 			<formatter type="html" outfile="docs/phpmd.html"/>
 		</phpmd>
@@ -61,7 +61,7 @@
 			<fileset dir="${app-dir}">
                 <include name="application/models/**/*.php"/>
                 <include name="application/forms/**/*.php"/>
-                <include name="library/Zftest/**/*.php"/>
+                <include name="library/${phing.project.name}/**/*.php"/>
             </fileset>
 			<logger type="jdepend-chart" outfile="docs/jdepend.svg"/>
 			<logger type="overview-pyramid" outfile="docs/pyramid.svg"/>
@@ -80,7 +80,7 @@
 				<fileset dir="${app-dir}/tests">
 	                <include name="application/models/**/*.php"/>
 	                <include name="application/forms/**/*.php"/>
-	                <include name="library/Zftest/**/*.php"/>
+	                <include name="library/${phing.project.name}/**/*.php"/>
 	            </fileset>
 			</batchtest>
 		</phpunit>
