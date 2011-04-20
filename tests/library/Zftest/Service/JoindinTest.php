@@ -17,10 +17,6 @@ class Zftest_Service_JoindinTest extends PHPUnit_Framework_TestCase
         parent::tearDown();
         $this->_joindin = null;
     }
-    public function testJoindinCanConnect()
-    {
-        $this->assertInstanceOf('Zftest_Service_Joindin', $this->_joindin);
-    }
     public function testJoindinCanGetUserDetails()
     {
         $expected = '<?xml version="1.0"?><response><item><username>DragonBe</username><full_name>Michelangelo van Dam</full_name><ID>19</ID><last_login>1303248639</last_login></item></response>';
