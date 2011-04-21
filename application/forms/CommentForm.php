@@ -66,6 +66,8 @@ class Application_Form_CommentForm extends Zend_Form
                 new Zftest_Validate_TextBox(),
                 new Zend_Validate_StringLength(array ('max' => 5000)),
             ),
+            'cols' => 45,
+            'rows' => 6,
         ));
         $this->addElement('submit', 'post', array (
         	'Label' => 'Post',

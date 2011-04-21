@@ -169,6 +169,11 @@ class Zftest_Service_Joindin
         $this->_site->setJoindin($this);
         return $this->_site;
     }
+    public function event()
+    {
+        $this->_event->setJoindin($this);
+        return $this->_event;
+    }
     public function connect(SimpleXMLElement $message, $apiEnd = null)
     {
         $this->getClient()
