@@ -7,6 +7,7 @@ class Zftest_Service_JoindinTest extends PHPUnit_Framework_TestCase
     protected function setUp()
     {
         $this->_joindin = new Zftest_Service_Joindin();
+        $this->_joindinLive = new Zftest_Service_Joindin();
         // using the test adapter for testing
         $client = new Zend_Http_Client();
         $client->setAdapter(new Zend_Http_Client_Adapter_Test());
@@ -21,6 +22,32 @@ class Zftest_Service_JoindinTest extends PHPUnit_Framework_TestCase
     {
         parent::tearDown();
         $this->_joindin = null;
+    }
+    public function testJoindinCanGetEventDetails()
+    {
+        $source = realpath(dirname(__FILE__) . '/_files/eventDetails.xml');
+        $response = <<<EOS
+HTTP/1.1 200 OK
+Content-type: text/xml
+EOS;
+        $response .= "\n\n" . file_get_contents($source);
+        $client = $this->_joindin->getClient()->getAdapter()->setResponse($response);
+        $expected = simplexml_load_file($source);
+        $actual = $this->_joindin->event()->getEventDetail(466);
+        $this->assertXmlStringEqualsXmlFile($source, $actual);
+    }
+    public function testJoindinCanGetEventTalks()
+    {
+        $source = realpath(dirname(__FILE__) . '/_files/eventTalks.xml');
+        $response = <<<EOS
+HTTP/1.1 200 OK
+Content-type: text/xml
+EOS;
+        $response .= "\n\n" . file_get_contents($source);
+        $client = $this->_joindin->getClient()->getAdapter()->setResponse($response);
+        $expected = simplexml_load_file($source);
+        $actual = $this->_joindin->event()->getEventTalks(466);
+        $this->assertXmlStringEqualsXmlFile($source, $actual);
     }
     public function testJoindinCanGetUserDetails()
     {

@@ -1,0 +1,951 @@
+<?xml version="1.0"?>
+<response>
+    <item>
+        <talk_title>Caching and tuning fun for high scalability</talk_title>
+        <speaker>Wim Godden</speaker>
+        <slides_link>http://www.slideshare.net/wimg/caching-and-tuning-fun-for-high-scalability</slides_link>
+        <date_given>1296201600</date_given>
+        <event_id>466</event_id>
+        <ID>2491</ID>
+        <talk_desc>Caching has been a 'hot' topic for a few years. But caching takes more than merely taking data and
+            putting it in a cache : the right caching techniques can improve performance and reduce load significantly.
+            We'll also look at some major pitfalls, showing that caching the wrong way can bring down your site.
+
+            If you're looking for a clear explanation about various caching techniques and tools like Nginx and Varnish, as well as
+            ways to deploy them in an efficient way, this tutorial is for you.</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>4</rank>
+        <comment_count>3</comment_count>
+        <tcid>Workshop</tcid>
+        <tracks>
+            <item>
+                <track_name>Tutorial track 1</track_name>
+                <ID>116</ID>
+                <track_desc>Track 1 of the tutorials</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>Real world Quality Assurance, unit testing, code review</talk_title>
+        <speaker>Kore Nordmann, Tobias Schlitt</speaker>
+        <slides_link></slides_link>
+        <date_given>1296201600</date_given>
+        <event_id>466</event_id>
+        <ID>2492</ID>
+        <talk_desc>Qafoo on QA</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>4</rank>
+        <comment_count>10</comment_count>
+        <tcid>Workshop</tcid>
+        <tracks>
+            <item>
+                <track_name>Tutorial track 2</track_name>
+                <ID>117</ID>
+                <track_desc>Track 2 of the tutorials</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>Developing search applications with Apache Solr &amp; PHP</talk_title>
+        <speaker>Paul Borgermans</speaker>
+        <slides_link></slides_link>
+        <date_given>1296201600</date_given>
+        <event_id>466</event_id>
+        <ID>2493</ID>
+        <talk_desc>Paul Borgermans on Solr</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>5</rank>
+        <comment_count>4</comment_count>
+        <tcid>Workshop</tcid>
+        <tracks>
+            <item>
+                <track_name>Tutorial track 3</track_name>
+                <ID>118</ID>
+                <track_desc>Track 3 of the tutorials</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>Mysql Performance Tuning</talk_title>
+        <speaker>Geert Vanderkelen</speaker>
+        <slides_link></slides_link>
+        <date_given>1296201600</date_given>
+        <event_id>466</event_id>
+        <ID>2494</ID>
+        <talk_desc>Geert Vanderkelen on Mysql Performance Tuning</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>4</rank>
+        <comment_count>1</comment_count>
+        <tcid>Workshop</tcid>
+        <tracks>
+            <item>
+                <track_name>Tutorial track 4</track_name>
+                <ID>119</ID>
+                <track_desc>Track 4 of the tutorials</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>27 Ways To Be A Better Developer</talk_title>
+        <speaker>Ivo Jansch, Lorna Mitchell</speaker>
+        <slides_link>http://www.slideshare.net/lornajane/27-ways-to-be-a-better-developer</slides_link>
+        <date_given>1296216000</date_given>
+        <event_id>466</event_id>
+        <ID>2411</ID>
+        <talk_desc>Looking for inspiration and strategies for becoming a better developer? Take a tour of top tips from
+            these two industry leaders, taken from their own experiences and those of many other developers they have
+            come into contact with. This lively mix of anecdotes and advice will fill you with ideas of feeding your own
+            ambition and moving forward in your development.</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>4</rank>
+        <comment_count>27</comment_count>
+        <tcid>Keynote</tcid>
+        <tracks>
+            <item>
+                <track_name>Conference track 1</track_name>
+                <ID>120</ID>
+                <track_desc>Track 1 of the main conference</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>Geolocation &amp; Maps in PHP</talk_title>
+        <speaker>Derick Rethans</speaker>
+        <slides_link>http://derickrethans.nl/talks.html</slides_link>
+        <date_given>1296220200</date_given>
+        <event_id>466</event_id>
+        <ID>2412</ID>
+        <talk_desc>This presentation covers the use of geolocation information with PHP. I will start with a theoretical
+            background of all the services, mapping systems etc involved. Af that, I will discuss on how to use
+            geo-services from PHP. From obtaining of geo-location information through databases and services, mapping
+            services to visualize geo-aware data to geo-aware data storage, manipulation and querying.</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>3</rank>
+        <comment_count>13</comment_count>
+        <tcid>Talk</tcid>
+        <tracks>
+            <item>
+                <track_name>Conference track 1</track_name>
+                <ID>120</ID>
+                <track_desc>Track 1 of the main conference</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>Testing Untestable Code</talk_title>
+        <speaker>Stephan Hochd&#xF6;rfer</speaker>
+        <slides_link>http://www.slideshare.net/shochdoerfer/testing-untestable-code-phpbnl11</slides_link>
+        <date_given>1296220200</date_given>
+        <event_id>466</event_id>
+        <ID>2420</ID>
+        <talk_desc>Automated software testing is an widely-adopted standard today. Unfortunately there exist
+            applications that are not testable by their design. In the first part of the session it is shown how the
+            dynamic nature of PHP can be used to manipulate such dependencies. In the second part of the session an
+            additional layer gets introduced which transforms parts of components into testable code fragments.
+        </talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>3</rank>
+        <comment_count>13</comment_count>
+        <tcid>Talk</tcid>
+        <tracks>
+            <item>
+                <track_name>Conference track 3</track_name>
+                <ID>122</ID>
+                <track_desc>Track 3 of the main conference</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>Stress-Free Deployment</talk_title>
+        <speaker>Rob Allen</speaker>
+        <slides_link>http://akrabat.com/wp-content/uploads/PHPBNL11-Stress-Free_Development.pdf</slides_link>
+        <date_given>1296220200</date_given>
+        <event_id>466</event_id>
+        <ID>2505</ID>
+        <talk_desc>This talk introduces the various strategies you can use to ensure that developing and releasing new
+            features to a live website is stress-free. Firstly we will look at how organising your source code into
+            branches can provide confidence and allow for features to go-live in any order. We will the consider the
+            mechanics of deploying a new version of the website to the server, ensuring that we can repeat the process
+            the same way every time. Finally we will look at how to roll back a deployment easily and quickly when
+            something goes wrong.</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>5</rank>
+        <comment_count>17</comment_count>
+        <tcid>Talk</tcid>
+        <tracks>
+            <item>
+                <track_name>Conference track 2</track_name>
+                <ID>121</ID>
+                <track_desc>Track 2 of the main conference</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>Making Software Management Tools Work For You</talk_title>
+        <speaker>John Mertic</speaker>
+        <slides_link>http://www.slideshare.net/jmertic/making-software-management-tools-work-for-you-2011-phpbenelux-conference
+        </slides_link>
+        <date_given>1296225600</date_given>
+        <event_id>466</event_id>
+        <ID>2417</ID>
+        <talk_desc>With the advent of such rich open source tools such as Subversion, Git, Trac, CruiseControl, and
+            Review Board, managing software projects of any size has become much easier than ever. But how do you best
+            use these tools in your organization? Picking the tool for you team is not a trivial task, and it requires
+            insight into your team&#x2019;s size, dynamic, and experience level; these tools are far from
+            one-size-fits-all solutions. In this talk we&#x2019;ll look at how these tools can fit into any software
+            project and how to pick the right tool for your project, helping you make your team more efficient than
+            before.</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>4</rank>
+        <comment_count>14</comment_count>
+        <tcid>Talk</tcid>
+        <tracks>
+            <item>
+                <track_name>Conference track 1</track_name>
+                <ID>120</ID>
+                <track_desc>Track 1 of the main conference</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>Technical Debt</talk_title>
+        <speaker>Elizabeth Naramore</speaker>
+        <slides_link></slides_link>
+        <date_given>1296225600</date_given>
+        <event_id>466</event_id>
+        <ID>2418</ID>
+        <talk_desc>Technical debt is something that most project teams or independent developers have to deal with
+            &#x2013; we take shortcuts to push out releases, deadlines need to be met, quick fixes slowly become the
+            standard. In this talk, we will discuss what technical debt is, when it is acceptable and when it
+            isn&#x2019;t, and strategies for effectively managing it, both on an independent and team level.</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>5</rank>
+        <comment_count>9</comment_count>
+        <tcid>Talk</tcid>
+        <tracks>
+            <item>
+                <track_name>Conference track 2</track_name>
+                <ID>121</ID>
+                <track_desc>Track 2 of the main conference</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>Why Service Oriented Architecture Is A Good Thing</talk_title>
+        <speaker>Jan Willem Eshuis</speaker>
+        <slides_link>http://www.slideshare.net/jwenl/why-service-oriented-architecture-is-a-good-thing-to-do
+        </slides_link>
+        <date_given>1296225600</date_given>
+        <event_id>466</event_id>
+        <ID>2485</ID>
+        <talk_desc>In this talk Jan-Willem Eshuis explains why SOA is a good thing to do. At the organization he works
+            for he is the architect of the newly developed infrastructure of the new media activities. The new SOA
+            platform of the new media department makes is possible to deliver content to any platform, at any place for
+            everybody. The talk will focus on the architecture of the SOA platform and the different PHP components that
+            are used to create the platform. It will give the audience a couple of best practices and the problems you
+            are going to face in the organization when you decide to create a SOA platform. With websites different
+            websites for huge sport events like the Beijing 2008 and Vancouver 2010 Olympics the new media department of
+            NOS showed that the new architecture works and is capable of serving lot&#x2019;s of visitors.</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>3</rank>
+        <comment_count>14</comment_count>
+        <tcid>Talk</tcid>
+        <tracks>
+            <item>
+                <track_name>Conference track 3</track_name>
+                <ID>122</ID>
+                <track_desc>Track 3 of the main conference</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>Designing HTTP Interfaces and RESTful Web Services</talk_title>
+        <speaker>David Zuelke</speaker>
+        <slides_link>http://slidesha.re/gGzP4w</slides_link>
+        <date_given>1296229800</date_given>
+        <event_id>466</event_id>
+        <ID>2419</ID>
+        <talk_desc>A lot of Web Services today claim to be RESTful APIs. But are they really? Do the URLs accurately
+            identify resources? Are the powers of HTTP leveraged properly? What is &#x201C;hypermedia&#x201D;, what is
+            the Uniform Interface, and what is the secret behind the HATEOAS acronym that is so essential to the REST
+            architectural style? This talk gives answers and guidelines using real-life examples.</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>5</rank>
+        <comment_count>17</comment_count>
+        <tcid>Talk</tcid>
+        <tracks>
+            <item>
+                <track_name>Conference track 2</track_name>
+                <ID>121</ID>
+                <track_desc>Track 2 of the main conference</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>PHP In A Mobile Ecosystem</talk_title>
+        <speaker>Ivo Jansch</speaker>
+        <slides_link></slides_link>
+        <date_given>1296229800</date_given>
+        <event_id>466</event_id>
+        <ID>2486</ID>
+        <talk_desc>2010 is the year the web became mobile. A significant portion of the mobile web has moved from the
+            browser to the &#x2018;apps&#x2019; domain. The iPhone, iPad and various Android phones have popularized the
+            app concept. Apps are not written in PHP, so are we moving away from PHP? In this session, Ivo takes a look
+            at PHP&#x2019;s role in the mobile web, and why he thinks PHP is a great tool in the App revolution
+        </talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>5</rank>
+        <comment_count>17</comment_count>
+        <tcid>Talk</tcid>
+        <tracks>
+            <item>
+                <track_name>Conference track 1</track_name>
+                <ID>120</ID>
+                <track_desc>Track 1 of the main conference</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>Simplify the access to the cloud computing services with Zend_Cloud</talk_title>
+        <speaker>Jan Burkl</speaker>
+        <slides_link></slides_link>
+        <date_given>1296229800</date_given>
+        <event_id>466</event_id>
+        <ID>2506</ID>
+        <talk_desc>How to write a PHP application using cloud computing services? Basically you have to use the APIs
+            published by vendors and build the software using these specific calls. If, for any reason, you want to
+            change your cloud vendor, you must rewrite your PHP code using the API system of the new vendor. Rewriting a
+            piece of software is always a cost, in terms of time and money. Using the Zend_Cloud class of the Zend
+            Framework project you can write PHP applications that are portables across all major cloud vendors today.
+            The Zend_Cloud is the evolution of the Simple Cloud API, a project of GoGrid, IBM, Microsoft, Nirvanix, and
+            Zend Technologies to unify the access to the cloud services in PHP.</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>3</rank>
+        <comment_count>3</comment_count>
+        <tcid>Talk</tcid>
+        <tracks>
+            <item>
+                <track_name>Conference track 3</track_name>
+                <ID>122</ID>
+                <track_desc>Track 3 of the main conference</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>Seeing PHP through a blue azure sky</talk_title>
+        <speaker>Michelangelo van Dam, Maarten Balliauw, Katrien De Graeve</speaker>
+        <slides_link>http://www.slideshare.net/mobile/maartenba/phpbenelux-2011-seeing-php-throug-a-blue-azure-sky
+        </slides_link>
+        <date_given>1296234000</date_given>
+        <event_id>466</event_id>
+        <ID>2507</ID>
+        <talk_desc>You know PHP is open source and runs on multiple platforms. But what about the platforms of the
+            future, the Cloud ahead? Mike, Maarten and Katrien will prove to you the future is looking bright, with blue
+            skies and some clouds that let a lot of sun through.
+            Speakers: Maarten Balliauw, Technical Consultant Windows Azure at RealDolmen; Michelangelo van Dam, Board member PHPBenelux;
+            Katrien De Graeve, Evangelist Microsoft BeLux</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>3</rank>
+        <comment_count>17</comment_count>
+        <tcid>Keynote</tcid>
+        <tracks>
+            <item>
+                <track_name>Conference track 1</track_name>
+                <ID>120</ID>
+                <track_desc>Track 1 of the main conference</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>Snacks/sandwiches/drinks</talk_title>
+        <speaker></speaker>
+        <slides_link></slides_link>
+        <date_given>1296237000</date_given>
+        <event_id>466</event_id>
+        <ID>2500</ID>
+        <talk_desc>Snacks, sandwiches and drinks</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>4</rank>
+        <comment_count>16</comment_count>
+        <tcid>Social Event</tcid>
+        <tracks></tracks>
+    </item>
+    <item>
+        <talk_title>Conference social: bowling in the venue!</talk_title>
+        <speaker></speaker>
+        <slides_link></slides_link>
+        <date_given>1296241200</date_given>
+        <event_id>466</event_id>
+        <ID>2501</ID>
+        <talk_desc>Bowling! We've booked all bowling alleys in the conference venue! The bowling is brought to you by
+            Enrise</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>5</rank>
+        <comment_count>8</comment_count>
+        <tcid>Social Event</tcid>
+        <tracks></tracks>
+    </item>
+    <item>
+        <talk_title>Scrum In The Wild</talk_title>
+        <speaker>Mike van Riel</speaker>
+        <slides_link>http://www.slideshare.net/mikevanriel/scrum-in-the-wild-phpbenelux-2011</slides_link>
+        <date_given>1296288000</date_given>
+        <event_id>466</event_id>
+        <ID>2413</ID>
+        <talk_desc>SCRUM is a framework. This might be the first thing you hear once you intend to dabble with this
+            &#x2018;framework&#x2019;. Yet what it exactly means might be elusive, as it can be hard to find examples of
+            how to implement it in your organization. In this talk I will share how we implemented SCRUM and what we
+            have experienced thus far. This way I want to show you a practical example how it can be done and what the
+            benefits were to our team.</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>4</rank>
+        <comment_count>5</comment_count>
+        <tcid>Talk</tcid>
+        <tracks>
+            <item>
+                <track_name>Conference track 2</track_name>
+                <ID>121</ID>
+                <track_desc>Track 2 of the main conference</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>Benchmarking Applications And Frameworks</talk_title>
+        <speaker>Paul M. Jones</speaker>
+        <slides_link></slides_link>
+        <date_given>1296288000</date_given>
+        <event_id>466</event_id>
+        <ID>2498</ID>
+        <talk_desc>This talk will begin with an outline of the differences between &#x201C;profiling&#x201D; code blocks
+            and &#x201C;benchmarking&#x201D; a system or subsystem. After a short discussion on the purpose and intent
+            of running benchmarks, we will see how to set up a benchmarking system, including the &#x201C;ab&#x201D;
+            tool and the experimental controls needed when doing comparative benchmarks. Finally, there will be
+            real-life examples of comparative benchmarks between some major frameworks, and a description what the
+            results indicate (and just as importantly what they do *not* indicate).</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>5</rank>
+        <comment_count>20</comment_count>
+        <tcid>Talk</tcid>
+        <tracks>
+            <item>
+                <track_name>Conference track 1</track_name>
+                <ID>120</ID>
+                <track_desc>Track 1 of the main conference</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>Mastering Namespaces</talk_title>
+        <speaker>Nick Belhomme</speaker>
+        <slides_link>http://www.slideshare.net/NickBelhomme/mastering-namespaces-in-php</slides_link>
+        <date_given>1296288000</date_given>
+        <event_id>466</event_id>
+        <ID>2508</ID>
+        <talk_desc>With PHP5.3.3 recently released I really feel it is time that php developers are taking namespaces
+            seriously. If you don&#x2019;t I guarantee you will be out of a job within five years. Namespaces are a
+            fundamental part of the future of PHP. The talk explains the usage on importing third party libraries, using
+            it in your own code and aliasing. The full works.</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>4</rank>
+        <comment_count>11</comment_count>
+        <tcid>Talk</tcid>
+        <tracks>
+            <item>
+                <track_name>Conference track 3</track_name>
+                <ID>122</ID>
+                <track_desc>Track 3 of the main conference</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>Charsets &amp; Encoding</talk_title>
+        <speaker>Kore Nordmann</speaker>
+        <slides_link>http://talks.qafoo.com/</slides_link>
+        <date_given>1296292200</date_given>
+        <event_id>466</event_id>
+        <ID>2488</ID>
+        <talk_desc>Each web-developer experiences them sooner or later: charset-problems. There are a lot of
+            possibilities of doing something wrong: user-input-handling, PHP string-handling, the storage backend, the
+            output layer. This talk shows how to handle charsets correctly with PHP, so that you&#x2019;ll never have
+            strange characters on your website again.</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>4</rank>
+        <comment_count>9</comment_count>
+        <tcid>Talk</tcid>
+        <tracks>
+            <item>
+                <track_name>Conference track 2</track_name>
+                <ID>121</ID>
+                <track_desc>Track 2 of the main conference</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>Harness The Power Of Sed And Awk</talk_title>
+        <speaker>Joshua Thijssen</speaker>
+        <slides_link>http://www.slideshare.net/jaytaph/sed-awk-the-dynamic-duo</slides_link>
+        <date_given>1296292200</date_given>
+        <event_id>466</event_id>
+        <ID>2489</ID>
+        <talk_desc>&#x201C;Can you tell me exactly how much bandwidth a particular site has used over the last
+            week?&#x201D;. Probably you could. You have the apache log files so you can write a nice little PHP program
+            for it to filter our data, sum it up, make a nice report for it. But it&#x2019;s probably quicker to use sed
+            and awk for this job. Many developers working on a linux or unix system on a daily basis, consider standard
+            GNU tools like sed and awk black magic voodoo. In this talk I&#x2019;d like to give some simple examples on
+            usage of these (and some other) tools that are commonly available on linux systems that can be used on a
+            daily basis for a developer.</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>4</rank>
+        <comment_count>12</comment_count>
+        <tcid>Talk</tcid>
+        <tracks>
+            <item>
+                <track_name>Conference track 3</track_name>
+                <ID>122</ID>
+                <track_desc>Track 3 of the main conference</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>HipHop For PHP</talk_title>
+        <speaker>Scott MacVicar</speaker>
+        <slides_link></slides_link>
+        <date_given>1296292200</date_given>
+        <event_id>466</event_id>
+        <ID>2509</ID>
+        <talk_desc>What do you do when your PHP is as optimised as its going to get?
+
+            Facebook created it&#x2019;s own version of PHP which transforms the code into C++.
+
+            HipHop allows developers to continue writing complex logical directly with PHP but leverages the speed benefits of C++.
+            HipHop is more than just a theoretical exercise and currently powers the majority of Facebook servers. This
+            session will cover using HipHop and some of the code changes required to use it.</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>4</rank>
+        <comment_count>7</comment_count>
+        <tcid>Talk</tcid>
+        <tracks>
+            <item>
+                <track_name>Conference track 1</track_name>
+                <ID>120</ID>
+                <track_desc>Track 1 of the main conference</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>XML versus the New Kids On The Block</talk_title>
+        <speaker>David Zuelke</speaker>
+        <slides_link>http://slidesha.re/i0qPXg</slides_link>
+        <date_given>1296297600</date_given>
+        <event_id>466</event_id>
+        <ID>2414</ID>
+        <talk_desc>The increasing popularity of data formats like JSON or YAML has left many people wondering whether
+            those who&#x2019;ve been bashing XML all along might have a point. This talk will look at the strengths and
+            weaknesses of XML, JSON and YAML, examine when to use which format, and explain why storing objects as XML
+            is a pain, why CouchDB uses JSON and why HTML5 missed the greatest chance the Web ever had.</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>5</rank>
+        <comment_count>7</comment_count>
+        <tcid>Talk</tcid>
+        <tracks>
+            <item>
+                <track_name>Conference track 2</track_name>
+                <ID>121</ID>
+                <track_desc>Track 2 of the main conference</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>Zend framework 2.0: What&#x2019;s New And What&#x2019;s Changed?</talk_title>
+        <speaker>Rob Allen</speaker>
+        <slides_link>http://akrabat.com/wp-content/uploads/PHPBNL11-ZF2-Whats-New.pdf</slides_link>
+        <date_given>1296297600</date_given>
+        <event_id>466</event_id>
+        <ID>2487</ID>
+        <talk_desc>With Zend Framework 2.0 in active development and coming &#x2019;soon&#x2019;, this session will look
+            at the goals of ZF2 along with what&#x2019;s new and what&#x2019;s different with ZF2 compared to ZF1.
+            We&#x2019;ll take a look at the new ways that components are referenced now that namespaces exist along with
+            a look at the new features of individual components that make development easier, with code samples to
+            explain how to do it the new way.</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>4</rank>
+        <comment_count>18</comment_count>
+        <tcid>Talk</tcid>
+        <tracks>
+            <item>
+                <track_name>Conference track 1</track_name>
+                <ID>120</ID>
+                <track_desc>Track 1 of the main conference</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>Improving Code Quality with Continuous Integration</talk_title>
+        <speaker>Martin de Keijzer</speaker>
+        <slides_link>http://www.slideshare.net/Martin82/improving-code-quality-with-continuous-integration-phpbenelux-conference-2011-6749792
+        </slides_link>
+        <date_given>1296297600</date_given>
+        <event_id>466</event_id>
+        <ID>2510</ID>
+        <talk_desc>Continuous Integration is the combination of any number of the available tools used to improve
+            quality of both code and process. In this session we will look at these available tools and how these can be
+            used. We will also look at Continuous Integration in general and CruiseControl in particular, at how to set
+            it up and built a platform for robust and high-quality code. This session is a must-see for development
+            leaders and technical managers alike, to understand the available options and the advantages offered by this
+            approach.</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>4</rank>
+        <comment_count>6</comment_count>
+        <tcid>Talk</tcid>
+        <tracks>
+            <item>
+                <track_name>Conference track 3</track_name>
+                <ID>122</ID>
+                <track_desc>Track 3 of the main conference</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>Varnish, the high performance valhalla?</talk_title>
+        <speaker>Jeroen van Dijk</speaker>
+        <slides_link>http://www.slideshare.net/neorey/varnish-the-high-performance-valhalla</slides_link>
+        <date_given>1296304800</date_given>
+        <event_id>466</event_id>
+        <ID>2415</ID>
+        <talk_desc>When high performance on a web application is a hard requirement Varnish can be of rescue. But does
+            it&#x2019;s name, the high-performance HTTP accelerator, really bring what you expect? What are the caveats,
+            pitfalls and problems you introduce when developing your application when the released version is only able
+            to run when there is a Varnish in front? This session will give you some answers, tips and tricks to aid in
+            application design, development with PHP and solutions when there is no Varnish in front of your
+            application.</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>4</rank>
+        <comment_count>10</comment_count>
+        <tcid>Talk</tcid>
+        <tracks>
+            <item>
+                <track_name>Conference track 1</track_name>
+                <ID>120</ID>
+                <track_desc>Track 1 of the main conference</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>Zeta Components</talk_title>
+        <speaker>Tobias Schlitt</speaker>
+        <slides_link>http://talks.qafoo.com/</slides_link>
+        <date_given>1296304800</date_given>
+        <event_id>466</event_id>
+        <ID>2416</ID>
+        <talk_desc>Apache Zeta Components, previously known as eZ Components, is a loosely coupled collection of high
+            quality components for PHP 5 based development. This talk
+            will give you an insight into the project and show you practical examples on some of the many cool components like Mail,
+            for sending and receiving even
+            complex emails easily, and Document, which allows you to convert between various markup formats and to generate PDF. Join
+            this interactive session and
+            see how Zeta can improve your development and have your questions answered.</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>5</rank>
+        <comment_count>4</comment_count>
+        <tcid>Talk</tcid>
+        <tracks>
+            <item>
+                <track_name>Conference track 3</track_name>
+                <ID>122</ID>
+                <track_desc>Track 3 of the main conference</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>Advanced CouchDB</talk_title>
+        <speaker>Sander van de Graaf</speaker>
+        <slides_link>http://www.slideshare.net/svdgraaf/couchdb-phpbenelux-conference</slides_link>
+        <date_given>1296304800</date_given>
+        <event_id>466</event_id>
+        <ID>2495</ID>
+        <talk_desc>In this talk, I will talk about the more advanced techniques of couchdb. By now, you should be
+            familiair with the nosql movement and some of the cool things those developments will bring to your
+            applications. I will show you how you can actually use couchdb in a project, as a backend, and why it is so
+            incredibly cool. I will also show you how you can write applications directly within couchdb, and how you
+            can replicate those over several other instances, hereby scaling your app if you need to. With that,
+            I&#x2019;ll also touch on what couchdb is good for, and what you shouldn&#x2019;t use couchdb for. best of
+            all, using couchdb means: Relax!</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>4</rank>
+        <comment_count>14</comment_count>
+        <tcid>Talk</tcid>
+        <tracks>
+            <item>
+                <track_name>Conference track 2</track_name>
+                <ID>121</ID>
+                <track_desc>Track 2 of the main conference</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>PHP Through The Eyes Of A Hoster</talk_title>
+        <speaker>Thijs Feryn</speaker>
+        <slides_link>http://www.slideshare.net/combell/php-through-the-eyes-of-a-hoster-phpbnl11</slides_link>
+        <date_given>1296309000</date_given>
+        <event_id>466</event_id>
+        <ID>2490</ID>
+        <talk_desc>Most PHP talks are given from the point of view of developers, managers, QAs, community members and
+            other obvious stakeholders of the wonderful world of PHP.The story of the hoster is often untold, but the
+            importance of the hoster is in a lot of cases underestimated. Hosters have a huge responsibility and deal as
+            much with PHP related issues as the developers of the project. During this talk, Ill explain what our
+            experiences with PHP are and how we apply our knowledge of PHP. Expect the following topics:
+            - Ensuring harmony on a shared server
+            - Dealing with hacked websites
+            - Boosting performance
+            - Teaching customers how to make their apps scale
+            - Solving code issues serverwise
+            - Securing applications
+            - Patching, debugging &amp; profiling</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>4</rank>
+        <comment_count>3</comment_count>
+        <tcid>Talk</tcid>
+        <tracks>
+            <item>
+                <track_name>Conference track 3</track_name>
+                <ID>122</ID>
+                <track_desc>Track 3 of the main conference</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>Project Triage &amp; Recovery</talk_title>
+        <speaker>Keith Casey</speaker>
+        <slides_link>http://caseysoftware.com/blog/phpbenelux-2011-recap</slides_link>
+        <date_given>1296309000</date_given>
+        <event_id>466</event_id>
+        <ID>2496</ID>
+        <talk_desc>You&#x2019;ve experienced it. You&#x2019;re handed a project with two hundred thousand lines of
+            complicated undocumented code and a looming deadline. Where do you begin? How do you get familiar with the
+            code? Finding and eliminating bugs is a good start, but how can you collect unbiased metrics on the system?
+            How do you know when the system is &#x201C;good enough&#x201D; for launch? In this session we&#x2019;ll use
+            the rebirth of dotProject as web2project to demonstrate five key concepts that will help you measure, track,
+            and triage your project from concept to the brink of failure to launch.</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>4</rank>
+        <comment_count>13</comment_count>
+        <tcid>Talk</tcid>
+        <tracks>
+            <item>
+                <track_name>Conference track 1</track_name>
+                <ID>120</ID>
+                <track_desc>Track 1 of the main conference</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>How To Build Customizable Multitenant Web Applications</talk_title>
+        <speaker>Stephan Hochd&#xF6;rfer</speaker>
+        <slides_link>http://www.slideshare.net/shochdoerfer/how-to-build-customizable-multitenant-web-applications-phpbnl11
+        </slides_link>
+        <date_given>1296309000</date_given>
+        <event_id>466</event_id>
+        <ID>2497</ID>
+        <talk_desc>In a multitenancy environment, multiple customers share the same application running on the same
+            hardware without sharing or seeing each other&#x2019;s data. During application lifetime customers want
+            changes in the workflow of their application instance. This talk will demonstrate several techniques how to
+            achieve customizable multitenant web applications without loosing maintainability and performance within the
+            application instance.</talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>3</rank>
+        <comment_count>6</comment_count>
+        <tcid>Talk</tcid>
+        <tracks>
+            <item>
+                <track_name>Conference track 2</track_name>
+                <ID>121</ID>
+                <track_desc>Track 2 of the main conference</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+    <item>
+        <talk_title>Chocolate Chip Cookies and Open Source Communities</talk_title>
+        <speaker>Elizabeth Naramore</speaker>
+        <slides_link></slides_link>
+        <date_given>1296315600</date_given>
+        <event_id>466</event_id>
+        <ID>2499</ID>
+        <talk_desc>Just like chocolate chip cookies, open source communities can be awesome creations. We&#x2019;ll
+            explore the ingredients in a community and how they all work together to produce something great.
+        </talk_desc>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <lang>uk</lang>
+        <rank>5</rank>
+        <comment_count>22</comment_count>
+        <tcid>Keynote</tcid>
+        <tracks>
+            <item>
+                <track_name>Conference track 1</track_name>
+                <ID>120</ID>
+                <track_desc>Track 1 of the main conference</track_desc>
+                <track_color></track_color>
+            </item>
+        </tracks>
+    </item>
+</response>

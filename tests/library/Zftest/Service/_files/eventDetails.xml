@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<response>
+    <item>
+        <event_name>PHPBenelux Conference 2011</event_name>
+        <event_start>1296169200</event_start>
+        <event_end>1296428399</event_end>
+        <event_lat>51.1497610000000000</event_lat>
+        <event_long>4.4313149000000000</event_long>
+        <ID>466</ID>
+        <event_loc>Hotel Ter Elst, Antwerp</event_loc>
+        <event_desc>PHPBenelux Conference 2011 is all about PHP and related
+            technologies. 2 days nothing but the best practices and informative
+            content presented by national and international speakers.
+
+            On Friday, January 29 we start off with 4 tutorial tracks in the
+            morning, in the afternoon the conference.
+
+            Closing the first day of the conference there will be a social bowling event
+            and drinks.
+
+            Saturday, January 30 it's a full day of conference talks.</event_desc>
+        <active>1</active>
+        <event_stub>phpbnl11</event_stub>
+        <event_icon>phpbenelux_gravatar.gif</event_icon>
+        <pending>0</pending>
+        <event_hashtag>#phpbnl11, #phpbenelux</event_hashtag>
+        <event_href>http://is.gd/mNQWMK</event_href>
+        <event_cfp_start></event_cfp_start>
+        <event_cfp_end></event_cfp_end>
+        <event_voting></event_voting>
+        <private>N</private>
+        <event_tz_cont>Europe</event_tz_cont>
+        <event_tz_place>Amsterdam</event_tz_place>
+        <event_contact_name>0</event_contact_name>
+        <event_contact_email>0</event_contact_email>
+        <event_cfp_url></event_cfp_url>
+        <allow_comments>1</allow_comments>
+        <num_attend>120</num_attend>
+        <num_comments>19</num_comments>
+        <now></now>
+        <timezoneString>Europe/Amsterdam</timezoneString>
+        <tracks>
+            <item>
+                <event_id>466</event_id>
+                <track_name>Tutorial track 1</track_name>
+                <track_desc>Track 1 of the tutorials</track_desc>
+                <track_color></track_color>
+                <ID>116</ID>
+                <used>1</used>
+            </item>
+            <item>
+                <event_id>466</event_id>
+                <track_name>Tutorial track 2</track_name>
+                <track_desc>Track 2 of the tutorials</track_desc>
+                <track_color></track_color>
+                <ID>117</ID>
+                <used>1</used>
+            </item>
+            <item>
+                <event_id>466</event_id>
+                <track_name>Tutorial track 3</track_name>
+                <track_desc>Track 3 of the tutorials</track_desc>
+                <track_color></track_color>
+                <ID>118</ID>
+                <used>1</used>
+            </item>
+            <item>
+                <event_id>466</event_id>
+                <track_name>Tutorial track 4</track_name>
+                <track_desc>Track 4 of the tutorials</track_desc>
+                <track_color></track_color>
+                <ID>119</ID>
+                <used>1</used>
+            </item>
+            <item>
+                <event_id>466</event_id>
+                <track_name>Conference track 1</track_name>
+                <track_desc>Track 1 of the main conference</track_desc>
+                <track_color></track_color>
+                <ID>120</ID>
+                <used>11</used>
+            </item>
+            <item>
+                <event_id>466</event_id>
+                <track_name>Conference track 2</track_name>
+                <track_desc>Track 2 of the main conference</track_desc>
+                <track_color></track_color>
+                <ID>121</ID>
+                <used>8</used>
+            </item>
+            <item>
+                <event_id>466</event_id>
+                <track_name>Conference track 3</track_name>
+                <track_desc>Track 3 of the main conference</track_desc>
+                <track_color></track_color>
+                <ID>122</ID>
+                <used>8</used>
+            </item>
+        </tracks>
+    </item>
+</response>

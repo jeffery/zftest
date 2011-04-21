@@ -55,6 +55,22 @@ class Zftest_Service_Joindin_Event extends Zftest_Service_Joindin_Abstract
         }
         return $response->getBody();
     }
+    public function getEventTalks($id = null)
+    {
+        $talks = $this->getJoindin()
+                      ->getMessage()
+                      ->addChild('action');
+        $talks->addAttribute('type', 'gettalks');
+        $talks->addAttribute('output', $this->getJoindin()->getOutput());
+        $talks->addChild('event_id', $id);
+
+        $response = $this->getJoindin()->connect(
+            $this->getJoindin()->getMessage(), self::JOINDIN_API_END);
+        if ($response->isError()) {
+            throw new Zftest_Service_Joindin_Exception($response->getMessage());
+        }
+        return $response->getBody();
+    }
     /**
      * Add an event to joind.in
      *  
